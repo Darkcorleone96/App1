@@ -61,11 +61,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onSupportNavigateUp() { // TODO: 13/01/2020 este es solo un ejemplo de comentario para todo el código public
+    public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
 
-    // FIXME: 13/01/2020 este comentario es solo para una linea o instrucción
+    // Comprobación del funcionamiento del control de versiones.
 }
