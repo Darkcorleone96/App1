@@ -67,5 +67,5 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-    // Comprobación del funcionamiento del control de versiones.
+    // Comprobación del funcionamiento del control de versiones. Fecha 14 de enero del 2020
 }
